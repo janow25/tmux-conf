@@ -32,3 +32,9 @@ git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugin
 ```bash
 tmux
 ```
+
+# Troubleshooting
+- If you encounter issues with the configuration, try running:
+```bash
+tmux kill-server
+```
