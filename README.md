@@ -32,6 +32,13 @@ git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugin
 ```bash
 tmux
 ```
+6. Install gitmux
+```bash
+wget https://github.com/arl/gitmux/releases/download/v0.11.2/gitmux_v0.11.2_linux_amd64.tar.gz
+sudo mkdir /opt/gitmux
+sudo tar -C /opt/gitmux -xzf gitmux_v0.11.2_linux_amd64.tar.gz
+sudo ln -s /opt /usr/local/bin
+```
 
 # Troubleshooting
 - If you encounter issues with the configuration, try running:
