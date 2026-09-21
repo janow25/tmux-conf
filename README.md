@@ -4,7 +4,7 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/janow25/tmux-conf.git ~/.config/tmux
+git clone git@github.com:janow25/tmux-conf.git ~/.config/tmux
 ```
 
 2. Source the configuration file:
